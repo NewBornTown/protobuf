@@ -1,3 +1,8 @@
+#NewbornTown 
+增加用于生成 mgo bson tag 的struct 
+
+	go get -u github.com/NewbornTown/protobuf/{proto,protoc-gen-go}
+
 # Go support for Protocol Buffers
 
 Google's data interchange format.
@@ -57,6 +62,7 @@ for an example using such a file.
 The package comment for the proto library contains text describing
 the interface provided in Go for protocol buffers. Here is an edited
 version.
+
 
 ==========
 
@@ -239,3 +245,4 @@ breaking change and would be subject to the announcement policy stated above.
 The `protoc-gen-go/generator` package exposes a plugin interface,
 which is used by the gRPC code generation. This interface is not
 supported and is subject to incompatible changes without notice.
+
