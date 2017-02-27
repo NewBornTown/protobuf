@@ -1,8 +1,9 @@
 #NewbornTown 
 增加用于生成 mgo bson tag 的struct 
 
-	go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
-	go get -u github.com/NewBornTown/protobuf/{proto,protoc-gen-go}
+	go get -u github.com/golang/protobuf/{proto}
+	go get -u github.com/NewBornTown/protobuf/{protoc-gen-go}
+
 
 # Go support for Protocol Buffers
 
